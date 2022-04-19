@@ -1,0 +1,9 @@
+{
+    "name": "node-and-neo4j",
+    "private": "true",
+    "scripts": {},
+    "dependencies": {
+        "neo4j-driver": "^4.4.5"
+    },
+    "type": "module"
+}

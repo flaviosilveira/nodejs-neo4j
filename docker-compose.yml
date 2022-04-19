@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  api:
+    build: .
+    volumes:
+      - .:/app
+
+  neo4j:
+    image: neo4j
+    volumes:
+      - ./data:/data
+    ports:
+      - "7474:7474"
+      - "7687:7687"
