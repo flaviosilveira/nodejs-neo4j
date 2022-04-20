@@ -1,9 +1,11 @@
 {
+    "type": "module",
     "name": "node-and-neo4j",
     "private": "true",
+    "main": "index.js",
     "scripts": {},
     "dependencies": {
+        "faker": "5.5.3",
         "neo4j-driver": "^4.4.5"
-    },
-    "type": "module"
+    }
 }
